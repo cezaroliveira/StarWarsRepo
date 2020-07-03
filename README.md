@@ -1,5 +1,6 @@
 # Exemplo de projeto do curso "Git e contribuições para projetos Open Source" da Udemy
 
+
 ## Conectando o repositório local com o GitHub via SSH
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh
 
@@ -35,3 +36,6 @@ git remote set-url origin https://github.com/cezaroliveira/StarWarsRepo.git
 
 ## Adicionando uma chave SSH no GitHub
 Copiar o conteúdo do arquivo "C:\Users\55319\.ssh\id_rsa.pub" e colar no GitHub
+
+# Exemplos de uso do \<details> em arquivos markdown (MD)
+[DETAILS.md](DETAILS.md)
