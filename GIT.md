@@ -62,4 +62,3 @@ git reset <HEAD, HEAD~1 ou hash do commit que será desfeito> --hard
 ```
 git diff <HEAD, HEAD~1 ou hash do commit> <HEAD, HEAD~1 ou hash do commit>
 ```
-
