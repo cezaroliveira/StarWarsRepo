@@ -41,14 +41,14 @@ git clone <URL> <caminho>
 ```
 
 # Realiza um novo commit revertendo (desfazendo) um commit em um repositório local
-# Pode ser necessário merge
+Pode ser necessário merge.
 ```
 git revert <HEAD, HEAD~1 ou hash do commit que será desfeito>
 ```
 
 # Reseta para um commit em um repositório local, ou seja, mantém os arquivos alterados que ainda não foram commitados
-# Esse comando altera a árvore de commits, removendo os que ocorreram após o commit especificado
-# Deve ser evitado caso já tenha feito o push das alterações
+Esse comando altera a árvore de commits, removendo os que ocorreram após o commit especificado.
+Deve ser evitado caso já tenha feito o push das alterações.
 ```
 git reset <HEAD, HEAD~1 ou hash do commit que será desfeito> <--soft>
 ```
