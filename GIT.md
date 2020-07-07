@@ -62,3 +62,8 @@ git reset <HEAD, HEAD~1 ou hash do commit que será desfeito> --hard
 ```
 git diff <HEAD, HEAD~1 ou hash do commit> <HEAD, HEAD~1 ou hash do commit>
 ```
+
+## Reaplica os commits de uma branch em outra branch sem gerar um commit separado de merge.
+```
+git rebase <branch>
+```
