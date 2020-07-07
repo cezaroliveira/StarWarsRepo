@@ -57,3 +57,9 @@ git reset <HEAD, HEAD~1 ou hash do commit que será desfeito> <--soft>
 ```
 git reset <HEAD, HEAD~1 ou hash do commit que será desfeito> --hard
 ```
+
+# Verificando as diferenças entre commits
+```
+git diff <HEAD, HEAD~1 ou hash do commit> <HEAD, HEAD~1 ou hash do commit>
+```
+
